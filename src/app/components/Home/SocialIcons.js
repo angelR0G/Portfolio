@@ -27,12 +27,12 @@ function SocialIcons() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/angel90801"
+                  href="https://angelro0.itch.io/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <Icon icon="mdi:twitter" />
+                  <Icon icon="cib:itch-io" />
                 </a>
               </li>
               <li className="social-icons">
@@ -45,14 +45,15 @@ function SocialIcons() {
                   <Icon icon="mdi:linkedin" />
                 </a>
               </li>
+              
               <li className="social-icons">
                 <a
-                  href="https://angelro0.itch.io/"
+                  href="https://twitter.com/angel90801"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <Icon icon="cib:itch-io" />
+                  <Icon icon="mdi:twitter" />
                 </a>
               </li>
             </ul>

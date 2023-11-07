@@ -32,12 +32,12 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/angel90801"
+                href="https://angelro0.itch.io/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <Icon icon="mdi:twitter" />
+                <Icon icon="cib:itch-io" />
               </a>
             </li>
             <li className="social-icons">
@@ -52,12 +52,12 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://angelro0.itch.io/"
+                href="https://twitter.com/angel90801"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <Icon icon="cib:itch-io" />
+                <Icon icon="mdi:twitter" />
               </a>
             </li>
           </ul>

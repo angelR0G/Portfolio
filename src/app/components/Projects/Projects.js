@@ -16,7 +16,7 @@ let projectsCards = [
       imageAlt="Orphan's Lullaby Cover"
       title="Orphan's Lullaby"
       description=""
-      ghLink=""
+      ghLink="https://github.com/angelR0G/OrphansLullaby"
       demoLink="https://pandaemicstudio.itch.io/orphans-lullaby"
     />
   </Col>,
@@ -34,6 +34,17 @@ let projectsCards = [
 
   <Col md={4} className="project-card">
     <ProjectCard
+      imgPath={zombiedisco}
+      imageAlt="Zombie Disco Cover"
+      title="Zombie Disco"
+      description=""
+      ghLink="https://github.com/angelR0G/ZombieDisco"
+      demoLink="https://pandemixstudio.itch.io/zombiedisco"
+    />
+  </Col>,
+
+  <Col md={4} className="project-card">
+    <ProjectCard
       imgPath={graverobber}
       imageAlt="Grave Robber Cover"
       title="Grave Robber"
@@ -45,21 +56,11 @@ let projectsCards = [
 
   <Col md={4} className="project-card">
     <ProjectCard
-      imgPath={zombiedisco}
-      imageAlt="Zombie Disco Cover"
-      title="Zombie Disco"
-      description=""
-      ghLink=""
-      demoLink="https://pandemixstudio.itch.io/zombiedisco"
-    />
-  </Col>,
-  <Col md={4} className="project-card">
-    <ProjectCard
       imgPath={twrh}
       imageAlt="Those who remain here Cover"
       title="Those who remain here"
       description=""
-      ghLink=""
+      ghLink="https://github.com/angelR0G/Those-Who-Remain-Here"
       demoLink=""
     />
   </Col>,

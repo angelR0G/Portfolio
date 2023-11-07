@@ -20,7 +20,7 @@ function ResumeNew() {
             <Row style={{ justifyContent: "left", position: "relative", marginLeft: "5%"}}>
             <Button
                 variant="primary"
-                href={"Assets/Angel Robles González - CV.pdf"}
+                href={"Assets/Angel_Robles_Gonzalez-Resume.pdf"}
                 target="_blank"
                 style={{ maxWidth: "250px" }}
             >
