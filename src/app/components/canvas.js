@@ -1,9 +1,9 @@
 'use client'
 
 import { lazy, useRef } from 'react'
-import { Canvas, useFrame } from "@react-three/fiber/";
+import { useFrame } from "@react-three/fiber/";
 import { useGLTF, PresentationControls, Environment, ContactShadows } from '@react-three/drei'
-import { Bloom, DepthOfField, EffectComposer, Noise, Vignette } from '@react-three/postprocessing'
+
 const Model = lazy(() => import("./model"));
 
 

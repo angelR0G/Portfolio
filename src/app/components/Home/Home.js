@@ -3,15 +3,12 @@
 import React from "react";
 import { Suspense } from 'react'
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../../../public/vercel.svg";
 
 import Type from "./Type";
 import Projects from "../Projects/Projects";
 import About from "../About/About";
 import ResumeNew from "../Resume/ResumeNew";
 import SocialIcons from "./SocialIcons";
-
-import { Button } from "react-bootstrap/Button";
 
 import { Canvas } from "@react-three/fiber/";
 

@@ -1,10 +1,8 @@
 'use client'
 
 import { useRef } from "react";
-import { Canvas, useFrame, useLoader } from "@react-three/fiber";
-import { useGLTF, PresentationControls, Environment, ContactShadows, Html } from '@react-three/drei'
+import { useFrame, useLoader } from "@react-three/fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import { Mesh } from "three";
 
 /* <mesh ref={mesh}>
     <primitive object={gltf.scene} />

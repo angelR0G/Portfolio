@@ -1,9 +1,8 @@
 'use client'
 
 import { lazy, useRef } from 'react'
-import { Canvas, useFrame, useLoader } from "@react-three/fiber";
-import { useGLTF, PresentationControls, Environment, ContactShadows, Html } from '@react-three/drei'
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import { useFrame} from "@react-three/fiber";
+
 const Model = lazy(() => import("./model"));
 
 function NavLogo(props) {

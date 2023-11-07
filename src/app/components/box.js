@@ -1,8 +1,7 @@
 'use client'
 
-import { createRoot } from 'react-dom/client'
 import React, { useRef, useState } from 'react'
-import { Canvas, useFrame } from '@react-three/fiber'
+import { useFrame } from '@react-three/fiber'
 
 function Box(props) {
   // This reference gives us direct access to the THREE.Mesh object
