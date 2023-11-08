@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import goingHome from "../../../../public/Assets/Projects/goingHome.png";
-import orphans from "../../../../public/Assets/Projects/orphanslullaby.png";
-import zombiedisco from "../../../../public/Assets/Projects/zombieDisco.png";
-import twrh from "../../../../public/Assets/Projects/twrh.png";
-import cargl from "../../../../public/Assets/Projects/cargl.png";
-import graverobber from "../../../../public/Assets/Projects/graverobber.png";
+const goingHome = "./Assets/Projects/goingHome.png";
+const orphans = "./Assets/Projects/orphanslullaby.png";
+const zombiedisco = "./Assets/Projects/zombieDisco.png";
+const twrh = "./Assets/Projects/twrh.png";
+const cargl = "./Assets/Projects/cargl.png";
+const graverobber = "./Assets/Projects/graverobber.png";
 
 
 let projectsCards = [
@@ -18,6 +18,7 @@ let projectsCards = [
       description=""
       ghLink="https://github.com/angelR0G/OrphansLullaby"
       demoLink="https://pandaemicstudio.itch.io/orphans-lullaby"
+      tools={["mdi:language-cpp", "simple-icons:opengl"]}
     />
   </Col>,
 
@@ -29,6 +30,7 @@ let projectsCards = [
       description=""
       ghLink="https://github.com/angelR0G/GBJam2023"
       demoLink="https://adrimb.itch.io/going-home/"
+      tools={["devicon-plain:godot-wordmark"]}
     />
   </Col>,
 
@@ -40,6 +42,7 @@ let projectsCards = [
       description=""
       ghLink="https://github.com/angelR0G/ZombieDisco"
       demoLink="https://pandemixstudio.itch.io/zombiedisco"
+      tools={["file-icons:assembly-generic"]}
     />
   </Col>,
 
@@ -51,6 +54,7 @@ let projectsCards = [
       description=""
       ghLink=""
       demoLink="https://angelro0.itch.io/grave-robber"
+      tools={["mdi:language-cpp", "fontisto:unreal-engine"]}
     />
   </Col>,
 
@@ -62,6 +66,7 @@ let projectsCards = [
       description=""
       ghLink="https://github.com/angelR0G/Those-Who-Remain-Here"
       demoLink=""
+      tools={["mdi:language-cpp", "simple-icons:sfml"]}
     />
   </Col>,
   <Col key={5} md={4} className="project-card">
@@ -71,7 +76,8 @@ let projectsCards = [
       title="CarGL"
       description=""
       ghLink="https://github.com/angelR0G/CarGL/"
-      demoLink="https://github.com/angelR0G/CarGL/releases/tag/releases"
+      demoLink=""
+      tools={["mdi:language-cpp", "simple-icons:opengl"]}
     />
   </Col>
 ]

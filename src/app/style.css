@@ -19,7 +19,7 @@
     --main-bg-color: #1a2d2ea9;
     --top-bg-color: #008a6a18;
     --footer-color: #1a2d2ea9;
-    --navigationBar-color: rgba(16, 29, 29, 0.839);
+    --navigationBar-color: #101d1dd6;
     /*Buttons*/
     --btn-color: #377a5d;
     --btn-border-color: #377a5d;
@@ -39,9 +39,10 @@ html {
     --imp-text-color: #45f999;
 }
 
-svg{
+svg {
     display: inline !important;
 }
+
 .back {
     --section-background-color: linear-gradient(to bottom left,
             rgba(35, 41, 41, 0.582),
@@ -116,8 +117,8 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-    position: sticky;
-    top: 0px;
+    position: sticky !important;
+    top: 0px !important;
     z-index: 2;
     background-color: var(--navigationBar-color) !important;
     transition: all 0.3s ease-out 0s !important;
@@ -204,15 +205,16 @@ button:focus {
     width: 2.5em !important;
 }
 
-.navbar-nav .navbar-link {
+.navbar-link {
     color: white !important;
     padding-right: 1rem !important;
     padding-left: 1rem !important;
     text-decoration: none;
     font-size: large;
 }
-.navbar-nav .navbar-link:hover {
-    color:#45f999  !important;
+
+ .navbar-link:hover {
+    color: #45f999 !important;
     padding-right: 1rem !important;
     padding-left: 1rem !important;
     text-decoration: none;
@@ -259,7 +261,7 @@ button:focus {
     width: 100%;
 }
 
-.navCanvas{
+.navCanvas {
     width: 80px;
     height: 80px;
 }
@@ -461,9 +463,9 @@ button:focus {
 }
 
 .home-social-icons:hover {
-    color: #27c055;
-    box-shadow: 0 0 5px #27c055;
-    text-shadow: 0 0 2px #27c055;
+    color: #27c055 !important;
+    box-shadow: 0 0 20px #27c055 !important;
+    text-shadow: 0 0 2px #27c055 !important;
 }
 
 .social-icons {
@@ -562,11 +564,20 @@ button:focus {
     border-radius: 10px !important;
 }
 
+
+.cardOverlay {
+    background-color: rgba(34, 34, 34, 0.874);
+    text-align: center;
+    bottom: auto !important;
+}
 /*
-.cardOverlay{
-background-color: rgba(37, 37, 37, 0.546);
-margin: 60% 5% 33%;
-text-align: left;
+@media (max-width: 991px) {
+    .cardOverlay {
+        background-color: rgba(34, 34, 34, 0.874);
+        text-align: center;
+        top: 40% !important;
+        bottom: 20% !important;
+    }
 }*/
 
 /* 
