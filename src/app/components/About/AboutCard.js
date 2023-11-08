@@ -10,7 +10,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p>
-            Hi am <span className="colorText">Ángel Robles González </span>
+            Hi! I&apos;m <span className="colorText">Ángel Robles González </span>
             from <span className="colorText"> Spain.</span>
             <br /> I graduated from Alicante University with a degree
             in Multimedia Engineering.

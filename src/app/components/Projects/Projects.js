@@ -10,7 +10,7 @@ import graverobber from "../../../../public/Assets/Projects/graverobber.png";
 
 
 let projectsCards = [
-  <Col md={4} className="project-card">
+  <Col key={0} md={4} className="project-card">
     <ProjectCard
       imgPath={orphans}
       imageAlt="Orphan's Lullaby Cover"
@@ -21,7 +21,7 @@ let projectsCards = [
     />
   </Col>,
 
-  <Col md={4} className="project-card">
+  <Col key={1} md={4} className="project-card">
     <ProjectCard
       imgPath={goingHome}
       imageAlt="Going Home Cover"
@@ -32,7 +32,7 @@ let projectsCards = [
     />
   </Col>,
 
-  <Col md={4} className="project-card">
+  <Col key={2} md={4} className="project-card">
     <ProjectCard
       imgPath={zombiedisco}
       imageAlt="Zombie Disco Cover"
@@ -43,7 +43,7 @@ let projectsCards = [
     />
   </Col>,
 
-  <Col md={4} className="project-card">
+  <Col key={3} md={4} className="project-card">
     <ProjectCard
       imgPath={graverobber}
       imageAlt="Grave Robber Cover"
@@ -54,7 +54,7 @@ let projectsCards = [
     />
   </Col>,
 
-  <Col md={4} className="project-card">
+  <Col key={4} md={4} className="project-card">
     <ProjectCard
       imgPath={twrh}
       imageAlt="Those who remain here Cover"
@@ -64,7 +64,7 @@ let projectsCards = [
       demoLink=""
     />
   </Col>,
-  <Col md={4} className="project-card">
+  <Col key={5} md={4} className="project-card">
     <ProjectCard
       imgPath={cargl}
       imageAlt="CarGL Cover"
@@ -96,7 +96,7 @@ function Projects(props) {
             My Recent <strong className="colorText">Works </strong>
           </h1>
           <p style={{ color: "white", textAlign: "center" }}>
-            Here are a few projects I've worked on recently.
+            Here are a few projects I&apos;ve worked on recently.
           </p>
 
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>

@@ -24,7 +24,6 @@ import CanvasTop from "../canvas";
 
 export default function Home() {
   return (
-
     <section>
       <Container fluid className="globalBg"></Container>
       <Container fluid className="home-section" id="home">
