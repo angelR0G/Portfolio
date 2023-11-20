@@ -1,12 +1,19 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
+import Button from "react-bootstrap/Button";
+
+import { Icon } from '@iconify/react';
+import { navLinks } from "../../dataNav";
+
+
 const goingHome = "./Assets/Projects/goingHome.png";
 const orphans = "./Assets/Projects/orphanslullaby.png";
 const zombiedisco = "./Assets/Projects/zombieDisco.png";
 const twrh = "./Assets/Projects/twrh.png";
 const cargl = "./Assets/Projects/cargl.png";
 const graverobber = "./Assets/Projects/graverobber.png";
+const tfg = "./Assets/Projects/coverTFG.png";
 
 
 let projectsCards = [
@@ -70,6 +77,17 @@ let projectsCards = [
     />
   </Col>,
   <Col key={5} md={4} className="project-card">
+  <ProjectCard
+    imgPath={tfg}
+    imageAlt="TFG Cover"
+    title="Degree Project"
+    description="Applying Virtual Reality to simulate inclusive academic buildings"
+    ghLink="https://github.com/angelR0G/TFG"
+    demoLink=""
+    tools={["mdi:unity", "mdi:language-csharp"]}
+  />
+</Col>,
+  <Col key={6} md={4} className="project-card">
     <ProjectCard
       imgPath={cargl}
       imageAlt="CarGL Cover"
@@ -79,17 +97,18 @@ let projectsCards = [
       demoLink=""
       tools={["mdi:language-cpp", "simple-icons:opengl"]}
     />
-  </Col>
+  </Col>,
+  
 ]
 
 function Projects(props) {
-  let showProjects=[];
+  let showProjects = [];
   let numShow = 0;
-  if(props.num == 0)
+  if (props.num == 0)
     numShow = projectsCards.length;
   else
     numShow = props.num;
-  for(let i= 0; i<Math.min(numShow, projectsCards.length); i++){
+  for (let i = 0; i < Math.min(numShow, projectsCards.length); i++) {
     showProjects.push(projectsCards[i]);
   }
 
@@ -106,10 +125,22 @@ function Projects(props) {
           </p>
 
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-           {showProjects}
+            {showProjects}
           </Row>
         </Container>
+        {props.showMore && (
+          <Row style={{ justifyContent: "center", position: "relative" }}>
+            <Button
+              variant="primary"
+              href={navLinks[1].path}
+              style={{ maxWidth: "250px" }}
+            >See more
+            </Button>
+          </Row>
+        )}
+
       </Container>
+
     </section>
   );
 }

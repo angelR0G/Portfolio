@@ -58,7 +58,7 @@ export default function Home() {
       </Container>
 
       <SocialIcons />
-      <Projects num={6}/>
+      <Projects num={6} showMore={true}/>
       <About />
     </section>
   );

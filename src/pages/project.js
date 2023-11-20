@@ -17,7 +17,7 @@ export default function IndexProjects() {
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css" rel="stylesheet" />
       </Head>
       <NavBar />
-      <Projects num={0} />
+      <Projects num={0} showMore={false}/>
       <Footer />
       <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js" async />
     </>
