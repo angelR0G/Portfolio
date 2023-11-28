@@ -59,7 +59,7 @@ let projectsCards = [
       imageAlt="Grave Robber Cover"
       title="Grave Robber"
       description=""
-      ghLink=""
+      ghLink="https://github.com/adrimarco/SpooktoberJam2023"
       demoLink="https://angelro0.itch.io/grave-robber"
       tools={["mdi:language-cpp", "fontisto:unreal-engine"]}
     />
