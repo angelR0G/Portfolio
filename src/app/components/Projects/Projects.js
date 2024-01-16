@@ -14,6 +14,7 @@ const twrh = "./Assets/Projects/twrh.png";
 const cargl = "./Assets/Projects/cargl.png";
 const graverobber = "./Assets/Projects/graverobber.png";
 const tfg = "./Assets/Projects/coverTFG.png";
+const contenders = "./Assets/Projects/contenders.png";
 
 
 let projectsCards = [
@@ -64,7 +65,28 @@ let projectsCards = [
       tools={["mdi:language-cpp", "fontisto:unreal-engine"]}
     />
   </Col>,
-
+  <Col key={4} md={4} className="project-card">
+    <ProjectCard
+      imgPath={contenders}
+      imageAlt="Contenders Cover"
+      title="Contenders"
+      description=""
+      ghLink="https://github.com/adrimarco/32BitJam2023"
+      demoLink="https://angelro0.itch.io/contenders"
+      tools={["devicon-plain:godot-wordmark"]}
+    />
+  </Col>,
+  <Col key={5} md={4} className="project-card">
+    <ProjectCard
+      imgPath={tfg}
+      imageAlt="TFG Cover"
+      title="Degree Project"
+      description="Applying Virtual Reality to simulate inclusive academic buildings"
+      ghLink="https://github.com/angelR0G/TFG"
+      demoLink=""
+      tools={["mdi:unity", "mdi:language-csharp"]}
+    />
+  </Col>,
   <Col key={4} md={4} className="project-card">
     <ProjectCard
       imgPath={twrh}
@@ -76,17 +98,6 @@ let projectsCards = [
       tools={["mdi:language-cpp", "simple-icons:sfml"]}
     />
   </Col>,
-  <Col key={5} md={4} className="project-card">
-  <ProjectCard
-    imgPath={tfg}
-    imageAlt="TFG Cover"
-    title="Degree Project"
-    description="Applying Virtual Reality to simulate inclusive academic buildings"
-    ghLink="https://github.com/angelR0G/TFG"
-    demoLink=""
-    tools={["mdi:unity", "mdi:language-csharp"]}
-  />
-</Col>,
   <Col key={6} md={4} className="project-card">
     <ProjectCard
       imgPath={cargl}
