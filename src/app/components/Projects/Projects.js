@@ -15,6 +15,9 @@ const cargl = "./Assets/Projects/cargl.png";
 const graverobber = "./Assets/Projects/graverobber.png";
 const tfg = "./Assets/Projects/coverTFG.png";
 const contenders = "./Assets/Projects/contenders.png";
+const pinatahell = "./Assets/Projects/pinatahell.png";
+const miningless = "./Assets/Projects/miningless.png";
+const darkharvest = "./Assets/Projects/darkharvest.png";
 
 
 let projectsCards = [
@@ -109,7 +112,40 @@ let projectsCards = [
       tools={["mdi:language-cpp", "simple-icons:opengl"]}
     />
   </Col>,
-  
+  <Col key={7} md={4} className="project-card">
+    <ProjectCard
+      imgPath={pinatahell}
+      imageAlt="PinataHell Cover"
+      title="Pinata Hell"
+      description=""
+      ghLink="https://github.com/adrimarco/PinataHell"
+      demoLink="https://adrimb.itch.io/pinata-hell"
+      tools={["mdi:unity", "mdi:language-csharp"]}
+    />
+  </Col>,
+  <Col key={8} md={4} className="project-card">
+    <ProjectCard
+      imgPath={miningless}
+      imageAlt="Miningless Cover"
+      title="Miningless"
+      description=""
+      ghLink="https://github.com/angelR0G/GameOff2024"
+      demoLink="https://adrimb.itch.io/miningless"
+      tools={["devicon-plain:godot-wordmark"]}
+    />
+  </Col>,
+  <Col key={9} md={4} className="project-card">
+  <ProjectCard
+    imgPath={darkharvest}
+    imageAlt="Dark harvest Cover"
+    title="Dark Harvest"
+    description=""
+    ghLink="https://github.com/angelR0G/FarmJam2025"
+    demoLink="https://angelro0.itch.io/dark-harvest"
+    tools={["mdi:unity", "mdi:language-csharp"]}
+  />
+</Col>,
+
 ]
 
 function Projects(props) {
